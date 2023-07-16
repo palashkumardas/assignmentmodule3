@@ -1,14 +1,29 @@
-<srcipt setup>
+<script setup>
+const subtitle = "App Features";
+const titleone = "Corporis voluptates sit";
+const titletwo = "Ullamco laboris nisi";
+const titlethree = "Labore consequatur";
+const titlefour = "Beatae veritatis";
+const titlefive = "Molestiae dolor";
+const titlesix = "Explicabo consectetur";
 
-</srcipt>
+const detailsone = "Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip";
+const detailstwo = "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt";
+const detailsthree = "Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere";
+const detailsfour = "Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta";
+const detailsfive = "Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte";
+const detailssix = "Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore";
+
+const features = "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.";
+</script>
 
 <template>
   <section id="features" class="features">
       <div class="container">
 
         <div class="section-title">
-          <h2>App Features</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>{{ subtitle }}</h2>
+          <p>{{ features }}</p>
         </div>
 
         <div class="row no-gutters">
@@ -17,33 +32,33 @@
               <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up">
                   <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4>{{ titleone }}</h4>
+                  <p>{{ detailsone }}</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <h4>{{ titletwo }}</h4>
+                  <p>{{ detailstwo }}</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <h4>{{ titlethree }}</h4>
+                  <p>{{ detailsthree }}</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                   <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  <h4>{{ titlefour }}</h4>
+                  <p>{{ detailsfour }}</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                   <i class="bx bx-atom"></i>
-                  <h4>Molestiae dolor</h4>
-                  <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                  <h4>{{ titlefive }}</h4>
+                  <p>{{ detailsfive }}</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                   <i class="bx bx-id-card"></i>
-                  <h4>Explicabo consectetur</h4>
-                  <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                  <h4>{{ titlesix }}</h4>
+                  <p>{{ detailssix }}</p>
                 </div>
               </div>
             </div>

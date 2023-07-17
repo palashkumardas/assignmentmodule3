@@ -1,5 +1,8 @@
 <script setup>
-
+const title = "Contact";
+const slogan = "Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.";
+const contact ="+1 5589 55488 55";
+const email = "info@example.com";
 </script>
 
 <template>
@@ -7,8 +10,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>{{ title }}</h2>
+          <p>{{ slogan }}</p>
         </div>
 
         <div class="row">
@@ -23,12 +26,12 @@
               <div class="col-lg-6 info">
                 <i class="bx bx-phone"></i>
                 <h4>Call Us</h4>
-                <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
+                <p>{{ contact }}<br>{{ contact }}</p>
               </div>
               <div class="col-lg-6 info">
                 <i class="bx bx-envelope"></i>
                 <h4>Email Us</h4>
-                <p>contact@example.com<br>info@example.com</p>
+                <p>{{ email }}<br>{{ email }}</p>
               </div>
               <div class="col-lg-6 info">
                 <i class="bx bx-time-five"></i>

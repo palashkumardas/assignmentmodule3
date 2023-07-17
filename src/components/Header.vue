@@ -3,7 +3,7 @@
 </script>
 
 <template>
-   <header id="header" class="fixed-top  header-transparent ">
+   <header id="header" class="fixed-top  header-transparent bg-light">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
